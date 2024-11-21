@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgb(255, 192, 232);
+    transition: color 0.3s;
+}
+
+.button-container {
+    display: inline-flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
